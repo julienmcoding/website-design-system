@@ -1,0 +1,90 @@
+body {
+    color: #111111;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 34px;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+h2 {
+    font-size: 22px;
+    color:#AAAAAA;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(204, 207, 207);
+    text-align: left;
+    padding: 10px 10px;
+}
+
+h3 {
+    background-color: #39CCCC;
+    border-radius: 5px;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#colors, #fonts, #text-styles {
+    display: inline-block;
+}
+
+/* Colors */
+.flex-container .color {
+    flex-direction: column;
+}
+
+.container {
+    justify-content: space-between;
+}
+
+#gray {
+    background-color: #AAAAAA;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+#aqua {
+    background-color: #7FDBFF;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+#teal {
+    background-color: #39CCCC;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+#olive {
+    background-color:#3D9970;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+#color1, #color2, #color3, #color4 {
+    display: inline-flex;
+    padding: 10px 10px;
+}
+
+/* Fonts */
+#fonts {
+    font-size: 18px;
+}
+
+#fontDancing {
+    font-family: 'Dancing Script', cursive;
+}
+
+#fontAkaya {
+    font-family: 'Akaya Telivigala', cursive;
+}
